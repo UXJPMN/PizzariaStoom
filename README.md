@@ -3,7 +3,7 @@ Este projeto foi criado usando ReactJs, Redux, Redux Sauce, Sass, Axios e um ser
 
 ## Como executar 🏃
 
-Após clonar o projeto navegue até o diretório e instalar as dependências utilize o comando:
+Após clonar o projeto e instalar as dependências navegue até o diretório e utilize o comando:
 
 `yarn start` ou `npm start`
 

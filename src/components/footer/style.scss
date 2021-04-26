@@ -1,0 +1,13 @@
+@import '../../assets/styles/settings.scss';
+
+.footer-wrapper {
+  background-color: $secondary;
+  padding: 16px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+
+  > p {
+    font-weight: 400;
+  }
+}

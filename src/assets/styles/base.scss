@@ -1,0 +1,34 @@
+@import './settings';
+@import './tools';
+
+h1 {
+  font-weight: 600;
+  font-size: 3em;
+
+  @media screen and (max-width: $breakpoint) {
+    font-size: 2em;
+  }
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2em;
+
+  @media screen and (max-width: $breakpoint) {
+    font-size: 1.5em;
+  }
+}
+
+button {
+  @include makeButton();
+
+  &:disabled {
+    opacity: 0.2;
+    cursor: default;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

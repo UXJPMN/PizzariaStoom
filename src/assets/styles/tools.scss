@@ -1,0 +1,23 @@
+@import './settings';
+
+@mixin makeButton (
+  $background: $primary,
+  $color: $dark,
+  $border: none,
+  $borderRadius: 4px,
+  $shadow: none,
+  $padding: 8px,
+  $fontSize: 1em,
+) {
+  background: $background;
+  color: $color;
+  border: $border;
+  border-radius: $borderRadius;
+  box-shadow: $shadow;
+  font-weight: 400;
+  padding: $padding;
+  font-size: $fontSize;
+  outline: none;
+  display: block;
+  cursor: pointer;
+}

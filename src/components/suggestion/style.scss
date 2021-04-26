@@ -1,0 +1,15 @@
+@import '../../assets/styles/settings.scss';
+
+.suggestion-wrapper {
+  background: $secondary;
+  display: block;
+  margin: auto;
+  padding: 8px;
+  text-align: center;
+
+  > .title {
+    display: inline;
+    margin-right: 16px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../../assets/styles/settings';
+
+.simple-navigation {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 24px;
+
+  @media screen and (max-width: $breakpoint) {
+    padding: 0 5%;
+  }
+
+  button {
+    height: 64px;
+    width: 240px;
+
+    @media screen and (max-width: $breakpoint) {
+      width: 120px;
+      height: 48px;      
+    }
+  }
+}

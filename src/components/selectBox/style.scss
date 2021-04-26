@@ -1,0 +1,17 @@
+.select-box {
+  li, input, label {
+    cursor: pointer;
+  }
+
+  li {
+    padding: 8px 0;
+  }
+  
+  input {
+    margin-right: 8px;
+
+    &:disabled+label {
+      opacity: 0.2;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import '../../assets/styles/settings.scss';
+
+.navigation-wrapper {
+  display: block;
+  margin: 16px auto;
+  width: fit-content;
+
+  > ul {
+    display: flex;
+    flex-flow: row wrap;
+
+    li {
+      button {
+        width: 15vw;
+        border-radius: 0;
+
+        @media screen and (max-width: $breakpoint) {
+          width: 23vw;
+          padding: 4px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .active {
+    button {
+      background: $primary-dark;
+      color: $white;
+    }
+  }
+}

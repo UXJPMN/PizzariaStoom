@@ -1,5 +1,4 @@
 import { useDispatch, useSelector } from 'react-redux';
-import './style.scss';
 import SelectRadio from '../../selectRadio';
 
 function Size() {

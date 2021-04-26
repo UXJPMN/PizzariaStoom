@@ -1,22 +1,22 @@
-@import '../../assets/styles/settings.scss';
+@import '../../assets/styles/settings';
 
 .navigation-wrapper {
   display: block;
-  margin: 16px auto;
+  margin: $medium-size auto;
   width: fit-content;
 
-  > ul {
+  > .list {
     display: flex;
     flex-flow: row wrap;
 
-    li {
-      button {
+    > .item {
+      > .button {
         width: 15vw;
         border-radius: 0;
 
         @media screen and (max-width: $breakpoint) {
           width: 23vw;
-          padding: 4px;
+          padding: $x-small-size;
           font-size: 12px;
         }
       }

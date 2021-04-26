@@ -1,13 +1,15 @@
+@import '../../assets/styles/settings';
+
 .select-radio {
   li, input, label {
     cursor: pointer;
   }
 
-  li {
-    padding: 8px 0;
+  .item {
+    padding: $small-size 0;
   }
   
-  input {
-    margin-right: 8px;
+  .radio {
+    margin-right: $small-size;
   }
 }

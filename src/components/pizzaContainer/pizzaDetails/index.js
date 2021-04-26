@@ -15,7 +15,7 @@ function PizzaDetails() {
   );
   const toppings = selected.toppings.map((item) => {
     return (
-      <li>{item}</li>
+      <li key={item} className="item">{item}</li>
     );
   });
 
@@ -44,7 +44,7 @@ function PizzaDetails() {
         <span className="title">
           Ingredientes: 
         </span>
-        <ul>
+        <ul className="list">
           {toppings}
         </ul>
       </div>

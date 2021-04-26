@@ -1,5 +1,4 @@
 import { useSelector, useDispatch } from 'react-redux';
-import './style.scss';
 import SelectBox from '../../selectBox';
 
 function Toppings() {

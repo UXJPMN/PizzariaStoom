@@ -1,15 +1,15 @@
-@import '../../assets/styles/settings.scss';
+@import '../../assets/styles/settings';
 
 .suggestion-wrapper {
   background: $secondary;
   display: block;
   margin: auto;
-  padding: 8px;
+  padding: $small-size;
   text-align: center;
 
   > .title {
     display: inline;
-    margin-right: 16px;
+    margin-right: $medium-size;
     font-weight: 400;
   }
 }

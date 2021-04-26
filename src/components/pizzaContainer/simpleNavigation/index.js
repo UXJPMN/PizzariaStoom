@@ -15,10 +15,18 @@ function SimpleNavigation() {
 
   return(
     <div className="simple-navigation">
-      <button disabled={currentStep === 0} onClick={decreaseStep}>
+      <button
+        className="button"
+        disabled={currentStep === 0} 
+        onClick={decreaseStep}
+      >
         Passo Anterior
       </button>
-      <button disabled={currentStep === 3} onClick={increaseStep}>
+      <button
+        className="button"
+        disabled={currentStep === 3}
+        onClick={increaseStep}
+      >
         Próximo Passo
       </button>
     </div>

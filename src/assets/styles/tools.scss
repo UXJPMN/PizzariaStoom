@@ -4,9 +4,9 @@
   $background: $primary,
   $color: $dark,
   $border: none,
-  $borderRadius: 4px,
+  $borderRadius: $x-small-size,
   $shadow: none,
-  $padding: 8px,
+  $padding: $small-size,
   $fontSize: 1em,
 ) {
   background: $background;

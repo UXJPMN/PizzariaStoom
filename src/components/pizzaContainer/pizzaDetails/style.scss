@@ -1,23 +1,25 @@
+@import '../../../assets/styles/settings';
+
 .pizza-details {
   > .detail {
-    padding: 8px;
+    padding: $small-size;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 
     > .title {
       font-weight: 400;
-      margin-right: 16px;
+      margin-right: $medium-size;
     }
 
-    ul {
+    .list {
       width: 100%;
       padding: 0;
 
-      li {
+      .item {
         display: block;
         margin: 0;
-        padding: 4px;
+        padding: $x-small-size;
       }
 
     }

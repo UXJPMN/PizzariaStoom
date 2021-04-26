@@ -1,14 +1,16 @@
+@import '../../assets/styles/settings';
+
 .select-box {
   li, input, label {
     cursor: pointer;
   }
 
-  li {
-    padding: 8px 0;
+  .item {
+    padding: $small-size 0;
   }
   
-  input {
-    margin-right: 8px;
+  .box {
+    margin-right: $small-size;
 
     &:disabled+label {
       opacity: 0.2;

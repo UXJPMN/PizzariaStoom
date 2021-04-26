@@ -36,6 +36,7 @@ function SelectBox({ callback, items, selected, max }) {
       <input
         type="checkbox"
         id={`${normalizedItem}Input`}
+        className="box"
         name={`${normalizedItem}Input`}
         value={item}
         onInput={sendCallback}
@@ -44,16 +45,16 @@ function SelectBox({ callback, items, selected, max }) {
     );
 
     return (
-      <li key={item}>
+      <li key={item} className="item">
         {input}
-        <label for={`${normalizedItem}Input`}>{item}</label>
+        <label for={`${normalizedItem}Input`} className="label">{item}</label>
       </li>
     );
   });
 
   return(
     <div className="select-box">
-      <ul>{ listItems }</ul>
+      <ul className="list">{ listItems }</ul>
     </div>
   );
 }

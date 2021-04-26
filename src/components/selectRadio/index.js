@@ -26,6 +26,7 @@ function SelectRadio({ callback, items, selected }) {
       <input
         type="radio"
         id={`${normalizedItem}Input`}
+        className="radio"
         name={`${normalizedItem}Input`}
         value={item}
         onInput={sendCallback}
@@ -34,7 +35,7 @@ function SelectRadio({ callback, items, selected }) {
     );
 
     return (
-      <li key={item}>
+      <li key={item} className="item">
         {input}
         <label for={`${normalizedItem}Input`}>{item}</label>
       </li>
@@ -43,7 +44,7 @@ function SelectRadio({ callback, items, selected }) {
 
   return(
     <div className="select-radio">
-      <ul>{ listItems }</ul>
+      <ul className="list">{ listItems }</ul>
     </div>
   );
 }
